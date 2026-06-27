@@ -31,7 +31,7 @@ The topology is designed following Cisco's hierarchical network design model, di
 | **Regular Users (VLAN 30)**| `10.10.30.0/24` | `255.255.255.0` | `10.10.30.1` | Dynamic (DHCP) |
 | **Guests (VLAN 40)** | `10.10.40.0/24` | `255.255.255.0` | `10.10.40.1` | Dynamic (DHCP) |
 
----
+---   
 
 ## 🛠️ How to Run the Simulation
 1. Download and install **Cisco Packet Tracer**.
