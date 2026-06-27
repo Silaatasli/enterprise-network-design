@@ -24,10 +24,8 @@ The topology is designed following Cisco's hierarchical network design model, di
 
 ---
 
-## 📊 IP Addressing & Subnetting Plan
-The private IP block `10.10.0.0/16` is segmented using VLSM to optimize address space and isolate broadcast domains:
-
-|    Department / VLAN      |  Subnet Block   | Subnet Mask     |  Gateway    | Assignment Type |
+| Department / VLAN | Subnet Block | Subnet Mask | Gateway | Assignment Type |
+| --- | --- | --- | --- | --- |
 | **Server Farm (VLAN 10)** | `10.10.10.0/24` | `255.255.255.0` | `10.10.10.1` | Static & DHCP |
 | **Accounting (VLAN 20)** | `10.10.20.0/24` | `255.255.255.0` | `10.10.20.1` | Dynamic (DHCP) |
 | **Regular Users (VLAN 30)**| `10.10.30.0/24` | `255.255.255.0` | `10.10.30.1` | Dynamic (DHCP) |
